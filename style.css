@@ -1,0 +1,65 @@
+body{
+    text-align: center;
+    padding-top: 500px;
+    top:0px;
+}
+#first{
+    background-color: chartreuse;
+    top: 0;
+    position: absolute;
+}
+#about{
+    background-color:cyan;
+}
+#myfavbook{
+    background-color: fuchsia;
+}
+#book_img{
+    border-radius: 50px;
+    margin-top: 50px;
+}
+#name{
+    font-size: 25px;
+    font-family: 'Cinzel Decorative', cursive;
+};
+.line{
+    height: 8px;
+    background-color: black;
+    width: 70px;
+    margin: 8px auto;
+}  
+.menu{
+    list-style: none;
+    position: fixed;
+    font-family: cursive;
+    top: 10px;
+    z-index: 10;
+    right: 30px;
+    cursor: pointer;
+    color: black;
+    text-shadow: grey;
+    font-size: 20px;
+}
+.link{
+    float: left;
+    padding:5px;
+}
+.link:hover{
+    text-decoration: underline;
+    color: darkblue;
+    text-shadow: darkgrey;
+}
+p{
+    font-size:20px;
+}
+#myfavbook iframe{
+    height: 500px;
+    width: 700px;
+}
+#myinspirations{
+    background: orange;
+}
+#myinspirations iframe{
+    height: 500px;
+    width: 500px;
+}
